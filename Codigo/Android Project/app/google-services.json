@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "38480659541",
+    "firebase_url": "https://maurice-sensores.firebaseio.com",
+    "project_id": "maurice-sensores",
+    "storage_bucket": "maurice-sensores.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38480659541:android:a9a16b92909bacc62a00dc",
+        "android_client_info": {
+          "package_name": "com.mauricesoa.mauricesensores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38480659541-dgvj2g1ca2ai0thput4qhjc9csv7dcs5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoGmnV3jWflwbUvcATUTRbyPaIgDvjwY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38480659541-dgvj2g1ca2ai0thput4qhjc9csv7dcs5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

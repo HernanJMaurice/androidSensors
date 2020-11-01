@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+    <EditText
+        android:id="@+id/envEditText"
+        android:layout_width="353dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/ingrese_env"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="353dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/ingrese_nombre"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/envEditText" />
+
+    <EditText
+        android:id="@+id/lastnameEditText"
+        android:layout_width="353dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/ingrese_apellido"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameEditText" />
+
+    <EditText
+        android:id="@+id/dniEditText"
+        android:layout_width="353dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/ingrese_dni"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastnameEditText" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="353dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/ingrese_email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dniEditText" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="353dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/ingrese_password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailEditText" />
+
+    <EditText
+        android:id="@+id/commissionEditText"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/ingrese_comision"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordEditText" />
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/singup_Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/commissionEditText" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signupButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>
